@@ -17,7 +17,7 @@ class Pantalla1_0540 extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {}, //fin de onPressed
-              child: const Text("Pantalla 1"),
+              child: const Text("Pantalla 2"),
             )
           ], //fin de niños
         ),

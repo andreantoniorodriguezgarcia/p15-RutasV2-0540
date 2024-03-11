@@ -9,7 +9,7 @@ class PantallaIni_0540 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("pagina  Inicial Rodriguez0540"),
+        title: const Text("pagina  Inicial Rodriguez0540"),
         backgroundColor: Colors.deepPurple,
       ),
       body: Center(
@@ -20,13 +20,13 @@ class PantallaIni_0540 extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, "/Pantalla1_0540");
             }, //fin de onpressed
-            child: Text("Mover a pantalla1"),
+            child: const Text("Mover a pantalla1"),
           ),
           ElevatedButton(
             onPressed: () {
               Navigator.pushNamed(context, "/Pantalla2_0540");
             }, //fin de onpressed
-            child: Text("Mover a pantalla2"),
+            child: const Text("Mover a pantalla2"),
           )
         ], //fin de niños
       )),
