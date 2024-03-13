@@ -13,14 +13,16 @@ class Pantalla1_0540 extends StatelessWidget {
         backgroundColor: Color(0xff6b60ff),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xff400c9a),
-          child: Padding(
-            padding: const EdgeInsets.all(16),
-            child: const Text(
-              "Tarjeta Rodríguez",
-              style: TextStyle(fontSize: 30, color: Color(0xfff3ebff)),
-            ),
+        child: Container(
+          color: Color(0xff120c69),
+          width: 300,
+          height: 300,
+          padding: const EdgeInsets.all(32),
+          margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: const Text(
+            'Contenedor rodriguez 0540',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

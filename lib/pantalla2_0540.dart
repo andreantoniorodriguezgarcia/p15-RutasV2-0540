@@ -14,23 +14,19 @@ class Pantalla2_0540 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Color(0xff6d4dff),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xffa99aff),
-            margin: EdgeInsets.all(48),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Tarjeta Rodríguez',
-                style: TextStyle(fontSize: 30, color: Colors.white),
-              ),
-            ),
+          color: Color(0xff541c9d),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Contenedor Rodriguez 0540',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),
     );
-    ;
   } //fin widget
 } //fin pantalla2
